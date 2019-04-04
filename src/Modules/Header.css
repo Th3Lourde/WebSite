@@ -1,0 +1,65 @@
+
+/* .black-text {
+  font-size: 5vw;
+  font-weight:200;
+} */
+
+
+@media screen and (min-width: 320px) {
+  .Black-text {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    font-weight:300;
+    color:black;
+    text-decoration: none;
+  }
+
+  .Menu {
+    /* background-color: blue; */
+    height:3vh;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+
+}
+@media screen and (min-width: 1000px) {
+  .Black-text {
+    font-size: 35px;
+    font-weight:300;
+    color:black;
+    text-decoration: none;
+  }
+
+  .Menu {
+    /* background-color: blue; */
+    height:5vh;
+  }
+
+  .Sub-Menu {
+    padding-left:3vw;
+  }
+
+  .hidden {
+    display: block;
+  }
+
+}
+
+
+.Home {
+  float:left;
+}
+
+.Sub-Menu {
+  float:right;
+}
+
+.Black-text:hover {
+  text-decoration: underline;
+}
+
+.white-text:hover {
+  text-decoration: underline;
+}
